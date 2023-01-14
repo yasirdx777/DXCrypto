@@ -15,20 +15,17 @@ struct HomeView: View {
     
     var body: some View {
         ZStack {
-            // background layer
             Color.theme.background
                 .ignoresSafeArea()
             
-            
-            // content layer
             VStack {
                 HomeStatsView()
+                    .padding(.top)
+                
                 SearchBarView(searchText: $vm.searchText)
                 columnTitles
-                
                 allCoinsList
                     .transition(.move(edge: .leading))
-                
                 
                 Spacer(minLength: 0)
             }

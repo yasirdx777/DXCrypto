@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AB093552972459D0099DBE0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB093542972459D0099DBE0 /* Launch Screen.storyboard */; };
+		0AB09359297248150099DBE0 /* DXCLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB09358297248150099DBE0 /* DXCLogo.png */; };
 		0AF9470B2971FD1900409F52 /* DXCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9470A2971FD1900409F52 /* DXCryptoApp.swift */; };
 		0AF9470F2971FD1A00409F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF9470E2971FD1A00409F52 /* Assets.xcassets */; };
 		0AF947122971FD1A00409F52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF947112971FD1A00409F52 /* Preview Assets.xcassets */; };
@@ -28,7 +30,6 @@
 		0AF947682971FD8900409F52 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF947392971FD8900409F52 /* HomeView.swift */; };
 		0AF947692971FD8900409F52 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9473A2971FD8900409F52 /* CoinRowView.swift */; };
 		0AF9476B2971FD8900409F52 /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9473C2971FD8900409F52 /* HomeStatsView.swift */; };
-		0AF9476C2971FD8900409F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF9473F2971FD8900409F52 /* LaunchScreen.storyboard */; };
 		0AF9476E2971FD8900409F52 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF947422971FD8900409F52 /* StatisticView.swift */; };
 		0AF947742971FD8900409F52 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9474A2971FD8900409F52 /* SearchBarView.swift */; };
 		0AF947762971FD8900409F52 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9474E2971FD8900409F52 /* DetailViewModel.swift */; };
@@ -38,6 +39,9 @@
 
 /* Begin PBXFileReference section */
 		0A70AAFC29722CAB00F9E441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB093532972336C0099DBE0 /* DXCrypto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DXCrypto.entitlements; sourceTree = "<group>"; };
+		0AB093542972459D0099DBE0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		0AB09358297248150099DBE0 /* DXCLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DXCLogo.png; sourceTree = "<group>"; };
 		0AF947072971FD1900409F52 /* DXCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DXCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF9470A2971FD1900409F52 /* DXCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DXCryptoApp.swift; sourceTree = "<group>"; };
 		0AF9470E2971FD1A00409F52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +64,6 @@
 		0AF947392971FD8900409F52 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0AF9473A2971FD8900409F52 /* CoinRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		0AF9473C2971FD8900409F52 /* HomeStatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
-		0AF9473F2971FD8900409F52 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AF947422971FD8900409F52 /* StatisticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		0AF9474A2971FD8900409F52 /* SearchBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		0AF9474E2971FD8900409F52 /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
@@ -98,10 +101,12 @@
 		0AF947092971FD1900409F52 /* DXCrypto */ = {
 			isa = PBXGroup;
 			children = (
+				0AB093532972336C0099DBE0 /* DXCrypto.entitlements */,
 				0AF9470A2971FD1900409F52 /* DXCryptoApp.swift */,
 				0AF947792971FE6D00409F52 /* Core */,
 				0AF947312971FD8900409F52 /* Features */,
-				0AF9473F2971FD8900409F52 /* LaunchScreen.storyboard */,
+				0AB093542972459D0099DBE0 /* Launch Screen.storyboard */,
+				0AB09358297248150099DBE0 /* DXCLogo.png */,
 				0A70AAFC29722CAB00F9E441 /* Info.plist */,
 				0AF9470E2971FD1A00409F52 /* Assets.xcassets */,
 				0AF947102971FD1A00409F52 /* Preview Content */,
@@ -300,9 +305,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AF9476C2971FD8900409F52 /* LaunchScreen.storyboard in Resources */,
+				0AB093552972459D0099DBE0 /* Launch Screen.storyboard in Resources */,
 				0AF947122971FD1A00409F52 /* Preview Assets.xcassets in Resources */,
 				0AF9470F2971FD1A00409F52 /* Assets.xcassets in Resources */,
+				0AB09359297248150099DBE0 /* DXCLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DXCrypto/DXCrypto.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DXCrypto/Preview Content\"";
@@ -470,7 +477,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DXCrypto/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -491,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DXCrypto/DXCrypto.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DXCrypto/Preview Content\"";
@@ -499,7 +507,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DXCrypto/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
